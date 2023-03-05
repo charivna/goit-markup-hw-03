@@ -153,6 +153,7 @@ margin-right: auto;
     display: flex;
     gap:24px;
     flex-wrap: wrap;
+    padding-top: 120px;
 }
 
 .features-list .title,
