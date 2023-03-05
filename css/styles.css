@@ -9,7 +9,7 @@
    
 }
 
-.img{
+img{
     max-width: 100%;
     height: auto;
     display: block;
@@ -140,7 +140,7 @@ margin-right: auto;
 }
 
 .section{
-    padding-top: 120px;
+    padding-top: 0;
     padding-bottom: 120px;
 }
 .team{
@@ -148,10 +148,7 @@ margin-right: auto;
  padding-bottom: 120px;
 
 }
-.section.no-padding{
-    padding-top: 0;
-    padding-bottom: 0;
-}
+
 .features-list{
     display: flex;
     gap:24px;
@@ -196,7 +193,6 @@ margin-bottom: 0;
         min-width: 250px;
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
 
 .team{
     background-color: var(--buttons-background-color);
@@ -295,7 +291,8 @@ background-color:var(--accent-color);
 
 .border{
 border: 1px solid #E7E9FC;
-padding: 32px 0;
+padding: 32px 16px;
+border-top: none;
 
 
 }
